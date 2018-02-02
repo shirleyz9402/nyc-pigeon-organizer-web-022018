@@ -5,5 +5,5 @@ def nyc_pigeon_organizer(pigeon_data)
      pigeon_list[name] = name
    end 
  end 
- pigeon_list
+ pigeon_list.flatten.uniq
 end
