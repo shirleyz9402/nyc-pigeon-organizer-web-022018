@@ -5,6 +5,8 @@ def nyc_pigeon_organizer(pigeon_data)
      names.each do |name|
        if pigeon_list.keys.include?(name) == false
          pigeon_list[name] = name
+       end 
+     end 
    end 
  end
  pigeon_list
